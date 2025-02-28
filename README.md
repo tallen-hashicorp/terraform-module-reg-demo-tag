@@ -1,4 +1,38 @@
-# Module Registry
+# Terraform Module Demo Tag
+
+<!-- BEGIN_TF_DOCS -->
+## Requirements
+
+No requirements.
+
+## Providers
+
+| Name | Version |
+|------|---------|
+| <a name="provider_random"></a> [random](#provider\_random) | 3.7.1 |
+
+## Modules
+
+No modules.
+
+## Resources
+
+| Name | Type |
+|------|------|
+| [random_integer.demo](https://registry.terraform.io/providers/hashicorp/random/latest/docs/resources/integer) | resource |
+
+## Inputs
+
+No inputs.
+
+## Outputs
+
+| Name | Description |
+|------|-------------|
+| <a name="output_random_number"></a> [random\_number](#output\_random\_number) | n/a |
+<!-- END_TF_DOCS -->
+
+---
 
 ## Find and use modules
 

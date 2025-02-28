@@ -1,7 +1,3 @@
-output "hostname" {
-  value = "http://${aws_instance.web.public_ip}"
-}
-
-output "ip" {
-  value = aws_instance.web.public_ip
+output "random_number" {
+  value = random_integer.demo.result
 }
